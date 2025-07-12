@@ -59,3 +59,6 @@ php artisan key:generate
 # Create your DB and update .env
 php artisan migrate
 php artisan serve
+
+#Start queue 
+php artisan queue:work
